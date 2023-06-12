@@ -10,10 +10,25 @@
 <body>
     <main>
         <a id="switchButton" href="#">Switch naar winkelmandje</a>
-        <section id="overzicht" class="overzicht">
-            <h1>Overzicht</h1>
+        <section id="overzicht">
+            <h1>overzicht</h1>
+            <input type="text" id="priceFilterInput">
+            <select name="genre" id="genres">
+                <option value="">Select genre</option>
+            </select>
+            <select name="rating" id="ratings">
+                <option value="">Select rating</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+
+            <button id="filterButton">Filter now!</button>
+            <div id="gameList"></div>
         </section>
-        <section id="winkelmandje" class="winkelmandje">
+        <section id="winkelmandje">
             <h1>Winkelmandje</h1>
         </section>
     </main>
